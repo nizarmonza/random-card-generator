@@ -1,1 +1,28 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  box-sizing: border-box;
+}
+.card {
+  display: inline-block;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  padding-top: 180px;
+  font-size: 80px;
+}
+#topSuit {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+}
+#bottomSuit {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+}
